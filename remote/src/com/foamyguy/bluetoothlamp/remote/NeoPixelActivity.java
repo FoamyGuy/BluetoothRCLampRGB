@@ -36,7 +36,7 @@ public class NeoPixelActivity extends Activity {
 		redSeek = (SeekBar)findViewById(R.id.redSeek);
 		greenSeek = (SeekBar)findViewById(R.id.greenSeek);
 		blueSeek = (SeekBar)findViewById(R.id.blueSeek);
-		sendBtn = (Button)findViewById(R.id.sendBtn);
+		//sendBtn = (Button)findViewById(R.id.sendBtn);
 		spinnerArrayAdapter = new ArrayAdapter<String>(this, R.layout.simple_spinner_dropdown_item, blu.getDeviceList());
 
         devicesSpn.setAdapter(spinnerArrayAdapter);
@@ -152,11 +152,11 @@ public class NeoPixelActivity extends Activity {
 
         
         
-        sendBtn.setOnClickListener(new OnClickListener(){
+        /*sendBtn.setOnClickListener(new OnClickListener(){
         	public void onClick(View v){
         		blu.write("rgb -1 " + redSeek.getProgress() + " " + greenSeek.getProgress() + " " + blueSeek.getProgress() + " 1");
         	}
-        });
+        });*/
 	}
 
 	

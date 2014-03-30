@@ -20,7 +20,7 @@
 
 #include <SoftwareSerial.h>  
 
-  boolean COLOR_SHIFT_MODE = true;
+  boolean COLOR_SHIFT_MODE = false;
   int MAX_COLOR_VALUE = 160;
   int COLOR_SHIFT_VALUE = 5;
   int redVal = 0;

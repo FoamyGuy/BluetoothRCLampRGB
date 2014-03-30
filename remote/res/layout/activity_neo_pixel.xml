@@ -23,40 +23,38 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/connectBtn"
         android:orientation="vertical" >
-        
+
         <SeekBar
-        android:id="@+id/redSeek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="200"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="38dp" />
+            android:id="@+id/redSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="38dp"
+            android:max="200" />
 
-    <SeekBar
-        android:id="@+id/greenSeek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="200"
-        android:layout_marginTop="22dp" />
+        <SeekBar
+            android:id="@+id/greenSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:max="200" />
 
-    <SeekBar
-        android:id="@+id/blueSeek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="200"
-        android:layout_marginTop="14dp" />
+        <SeekBar
+            android:id="@+id/blueSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:max="200" />
 
-    <Button
+        <!--
+         <Button
         android:id="@+id/sendBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="28dp"
         android:text="Send" />
+        -->
     </LinearLayout>
-
-
-
-    
 
 </RelativeLayout>
